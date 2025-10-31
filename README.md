@@ -7,6 +7,7 @@ Har HTML document ka ek standard (manak) structure hota hai. Yeh structure brows
 1. 📄 Buniyadi HTML Code
 Yahan woh code hai jise aap har HTML file mein sabse pehle likhenge:
 
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,3 +20,25 @@ Yahan woh code hai jise aap har HTML file mein sabse pehle likhenge:
     <p>Yeh mera HTML Learning Guide project ka pehla page hai.</p>
 </body>
 </html>
+```
+
+```html
+<!DOCTYPE html> ### 1. `<!DOCTYPE html>`
+
+**Maqsad:** Yeh line browser ko batati hai ki yeh document **HTML ka latest version (HTML5)** use kar raha hai.
+
+### 2. `<html>`
+
+**Maqsad:** Yeh **poore document ka mukhya dabba (main container)** hai. `<body>` aur `<head>` samet page ka sara content isi tag ke andar aata hai.
+
+### 3. `<head>`
+
+**Maqsad:** Ismein woh saari **"parde ke peeche ki jaankari" (invisible information)** hoti hai jo browser ko chahiye, jaise page ka title, character settings, aur CSS/JavaScript files ke links.
+
+### 4. `<body>`
+
+**Maqsad:** Yeh woh hissa hai jismein **woh sab kuch hota hai jo user ko screen par dikhai deta hai** (jaise text, images, buttons, aur forms).
+
+
+
+
