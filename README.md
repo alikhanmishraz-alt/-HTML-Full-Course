@@ -22,23 +22,37 @@ Yahan woh code hai jise aap har HTML file mein sabse pehle likhenge:
 </html>
 ```
 
+ 
+ 1. `<!DOCTYPE html>` * This line tells the browser that the document is using the **latest version of HTML (HTML5)**.
+
+ 2. `<html>` * This is the **main container of the entire document**. Everything on the page — including `<head>` and `<body>` — is written inside this tag.
+
+ 3. `<head>` * This contains all the **“behind-the-scenes information”** that the browser needs, such as the page title, character settings, and links to CSS or JavaScript files.
+
+ 4. `<body>` * This is the part that **contains everything visible to the user on the screen**, such as text, images, buttons, and forms.
+
+
+<h2>2. ✍️ Text Formatting Tags </h2>
+
+Yeh tags text ke roop (visual style) ya uski ehmiyat (semantic importance) ko badalte hain.
+
 ```html
-<!DOCTYPE html> ### 1. `<!DOCTYPE html>`
+ <h1>Heading 1</h1>
+<p>This is a paragraph.</p>
+<a href="https://example.com">This is a link</a>
+<img src="image.jpg" alt="Description of image">
+<div class="container">This is a div</div>
+<span>This is a span</span>
 
-**Maqsad:** Yeh line browser ko batati hai ki yeh document **HTML ka latest version (HTML5)** use kar raha hai.
-
-### 2. `<html>`
-
-**Maqsad:** Yeh **poore document ka mukhya dabba (main container)** hai. `<body>` aur `<head>` samet page ka sara content isi tag ke andar aata hai.
-
-### 3. `<head>`
-
-**Maqsad:** Ismein woh saari **"parde ke peeche ki jaankari" (invisible information)** hoti hai jo browser ko chahiye, jaise page ka title, character settings, aur CSS/JavaScript files ke links.
-
-### 4. `<body>`
-
-**Maqsad:** Yeh woh hissa hai jismein **woh sab kuch hota hai jo user ko screen par dikhai deta hai** (jaise text, images, buttons, aur forms).
+```
+```html
 
 
-
+Tag,Maqsad (Purpose),Example Code
+<h1> to <h6>,Headings define karta hai (h1 sabse zaroori/bada).,<h1>Main Heading</h1>
+<p>,Text ke ek paragraph ko define karta hai.,<p>This is text.</p>
+<br>,Current line ko force karke naye line se shuru karta hai (line break).,Line 1<br>Line 2
+<strong>,Batata hai ki text bahut zaroori hai (semantic bold).,<strong>Important!</strong>
+<em>,Text par zor dene ke liye istemaal hota hai (semantic italic).,<em>Emphasis here.</em>
+<span>,Text ke ek chote se hisse ko define karta hai (inline container).,Hello <span>World</span>
 
