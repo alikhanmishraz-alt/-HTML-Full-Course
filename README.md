@@ -176,11 +176,50 @@ Tag,Maqsad (Purpose),Example Code
 
  * `<"article">` —  → Independent piece of content (like a blog post)    
 
-  * `<"section">` —  → Logical divisions within the article          
+ * `<"section">` —  → Logical divisions within the article          
 
-    * `<"aside">` —  → Sidebar with related content
+ * `<"aside">` —  → Sidebar with related content
 
-  * `<"footer">` —  → Bottom area with credits or contact info
+ * `<"footer">` —  → Bottom area with credits or contact info
 
- ```
+ 
+
+<h2>7. ⚙️ **Attributes (Tag Features)**</h2>
+   Attributes are the **properties** that provide **additional information** about HTML tags.
+
+
+   <h1>HTML Attributes Example</h1>
+
+   
+```html
+<h1>HTML Attributes Example</h1>
+
+    <!-- 1. Image Tag with Attributes -->
+    <img src="https://via.placeholder.com/200" alt="Sample Image" width="200">
+
+    <!-- 2. Link Tag with Attributes -->
+    <a href="https://github.com" target="_blank" title="Go to GitHub">Visit GitHub</a>
+
+    <!-- 3. Input Tag with Attributes -->
+    <form action="#" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- 4. Paragraph with Style Attribute -->
+    <p style="color: blue;">This paragraph uses the style attribute to make text blue.</p>
+
+    <!-- 5. Button with Title and Onclick Attributes -->
+    <button title="Click to see alert" onclick="alert('Hello!')">Click Me</button>
+
+  ```
+  * `"src"` —  →   * `"alt"` —  →  * `width"` —  →  Image attributes        
+  * `"href"` —  →   * `"target"` —  →  * `title"` —  →   → Link attributes
+  * `"type"` —  →   * `"placeholder"` —  →  * `required"` —  →   Input attributes         
+  * `style"` —  →  Inline styling         
+  * `onclick"` —  →   * `title"` —  →  → Button attributes      
+
+
+
 
