@@ -119,8 +119,68 @@ Tag,Maqsad (Purpose),Example Code
 * `<method>` — The **HTTP method** used to send the data (either `GET` or `POST`).
 
 ---
- 
- 
+ <h2>6. 🏛️ **Semantic Tags (Modern Structure)**</h2>
+  These tags not only define the structure but also **convey the meaning** of the content.
+
+
+```html
+<header>
+        <h1>My Semantic HTML Page</h1>
+        <p>Using HTML5 semantic elements for better structure and SEO</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Article Title</h2>
+            <section>
+                <h3>Section 1</h3>
+                <p>This is the first section of the article explaining semantic HTML structure.</p>
+            </section>
+            <section>
+                <h3>Section 2</h3>
+                <p>Semantic tags improve accessibility and help search engines understand content better.</p>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="#">HTML5 Documentation</a></li>
+                <li><a href="#">MDN Web Docs</a></li>
+                <li><a href="#">W3Schools HTML Guide</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My GitHub Project | Built with ❤️ using Semantic HTML</p>
+    </footer>
+  
+```
+
 
  
+ 
+* `<"header">` —  → Top section with the title or logo       
+
+ * `<"nav">` —  → Navigation bar for links     
+
+ * `<"main">` —  → Main content area      
+
+ * `<"article">` —  → Independent piece of content (like a blog post)    
+
+  * `<"section">` —  → Logical divisions within the article          
+
+    * `<"aside">` —  → Sidebar with related content
+
+  * `<"footer">` —  → Bottom area with credits or contact info
+
+ ```
 
