@@ -23,13 +23,13 @@ Yahan woh code hai jise aap har HTML file mein sabse pehle likhenge:
 ```
 
  
- 1. `<!DOCTYPE html>` * This line tells the browser that the document is using the **latest version of HTML (HTML5)**.
+* 1. `<!DOCTYPE html>` * This line tells the browser that the document is using the **latest version of HTML (HTML5)**.
 
- 2. `<html>` * This is the **main container of the entire document**. Everything on the page — including `<head>` and `<body>` — is written inside this tag.
+* 2. `<html>` * This is the **main container of the entire document**. Everything on the page — including `<head>` and `<body>` — is written inside this tag.
 
- 3. `<head>` * This contains all the **“behind-the-scenes information”** that the browser needs, such as the page title, character settings, and links to CSS or JavaScript files.
+* 3. `<head>` * This contains all the **“behind-the-scenes information”** that the browser needs, such as the page title, character settings, and links to CSS or JavaScript files.
 
- 4. `<body>` * This is the part that **contains everything visible to the user on the screen**, such as text, images, buttons, and forms.
+* 4. `<body>` * This is the part that **contains everything visible to the user on the screen**, such as text, images, buttons, and forms.
 
 
 <h2>2. ✍️ Text Formatting Tags </h2>
@@ -55,4 +55,72 @@ Tag,Maqsad (Purpose),Example Code
 <strong>,Batata hai ki text bahut zaroori hai (semantic bold).,<strong>Important!</strong>
 <em>,Text par zor dene ke liye istemaal hota hai (semantic italic).,<em>Emphasis here.</em>
 <span>,Text ke ek chote se hisse ko define karta hai (inline container).,Hello <span>World</span>
+
+
+```
+
+
+<h2>3. 🖼️ Images and Media Tags</h2>
+
+```html
+<img src="pic.jpg" alt="A flower">  
+<audio controls>
+    <source src="audio.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+```
+
+* `<img>` — Used to **insert an image** on a web page (self-closing tag).
+* `<audio>` — Used to **embed audio content** on a web page.
+* `<video>` — Used to **embed video content** on a web page.
+
+<h2>4. 🔗 Links and Navigation Tags</h2>
+
+```html
+ <a href="page.html">Click Me</a>
+ <a href="#section1">Go to Section 1</a>
+ <nav>...</nav>
+```
+ 
+
+ * `<a>` —	Hyperlink (link) banata hai. href zaroori attribute hai.
+ * `<nav>` — Navigation links ka ek set define karta hai (main menu).
+
+<h2>5. 📝 Forms and Input Types</h2>
+<p>Yeh tags user se information lene ke liye forms create karte hain.</p>
+
+```html
+<form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <input type="submit" value="Submit">
+</form>
+
+```
+   Here’s the English translation 👇
+
+---
+
+* `<form>` — Defines a **form area** to collect user input.
+  Example: `<form action="submit.php">...</form>`
+
+* `<input>` — Defines **input fields** such as text boxes, checkboxes, or radio buttons.
+* `<input type="submit">` — Creates a **button** to submit the form.
+* `<label>` — Defines a **caption** or description for a form control (like an input field).
+* `<action>` — The **URL** where the form data will be sent.
+* `<method>` — The **HTTP method** used to send the data (either `GET` or `POST`).
+
+---
+ 
+ 
+
+ 
 
